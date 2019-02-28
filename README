@@ -1,0 +1,13 @@
+Gonna try to recreate the StarFinder mechanics in a Python game. And probably
+use a SQLite3 to store relevant data (item, bestiary, etc)
+
+This is so I can get up and running on Python again. And will most likely
+start doing good practices and crap (unit tests, @property, OOP).
+
+
+The big ol TODO list:
+1) Figure out a good way to organize this.
+    a) There will be a lot of moving parts, like test, classes, data, etc
+    b) This, of course, assumes adherence to best practices
+2) Start small. I say the mechanics of character creation. This means a lot of
+things, but yeah
