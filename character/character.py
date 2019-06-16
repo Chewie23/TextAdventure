@@ -14,3 +14,4 @@ if __name__ == "__main__":
     c = Character()
     c.name = "Lorc"
     print(c.name)
+    c.check_stats()
