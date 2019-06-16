@@ -1,5 +1,5 @@
 class Creature():
-    def __init__(self, STR, DEX, CON, INT, WIS, CHA):
+    def __init__(self, STR = 0 , DEX = 0, CON = 0, INT = 0, WIS = 0, CHA = 0):
         self.stat_keys = ["str", "dex", "con", "int", "wis", "cha"]
 
         self.str = STR
@@ -20,7 +20,7 @@ class Creature():
         for e in range(6):
             ability_mod_block[self.stat_keys[e]] = (self.stats_block[e] - 10) / 2
         return ability_mod_block
-        
+
 
     def check_stats(self):
         for e in range(6):
@@ -31,8 +31,8 @@ class Creature():
 
 
 
+
 if __name__ == "__main__":
     c = Creature(10, 12, 13, 12, 14, 3)
     print(c.get_ability_mod())
     c.check_stats()
-
