@@ -1,0 +1,16 @@
+What comprises a StarFinder character:
+1) Stats (STR, CON, etc)
+2) HP, SP
+3) AC
+4) Modifiers
+5) Race
+6) Theme
+7) Skills
+8) Spells (if necessary)
+
+
+So, I think to have modularized approach. If nothing else, to get practice in
+inheritance and creating Python modules and such
+
+The overall class that collates these parts would be the character sheet
+Would hold the misc. stuff, like, name, age, weight, etc
