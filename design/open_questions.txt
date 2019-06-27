@@ -1,0 +1,6 @@
+There are several open questions I would like to answer eventually, but:
+
+1) How to make a map system?
+    a) How to display or show?
+2) How to make a save system?
+

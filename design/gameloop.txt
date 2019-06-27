@@ -17,3 +17,5 @@ somewhat balanced system. The main question is now how to translate all Core Rul
 something technically viable (and maintainable).
 
 
+So that means, I need some type of story to tell or follow.
+
