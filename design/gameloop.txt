@@ -1,0 +1,19 @@
+Taking a note out of Ben Croshaw's book of game design (basically first solve the 
+major questions for this game in plain English, then code around that. Not the 
+other way around)
+
+So. The major questions:
+
+1) What is the gameplay loop going to be about?
+2) What are the mechanics?
+
+
+The gameplay loop will be about exploring, fighting and leveling up. I like to make it on the
+harder side where resources are scarce and every inch has to be fought for. Basically need to think
+about the choices that affect now vs. the choices that affect later
+
+The mechanics are literally StarFinder. Which saves me a bunch of work on figuring out a 
+somewhat balanced system. The main question is now how to translate all Core Rule book into
+something technically viable (and maintainable).
+
+
