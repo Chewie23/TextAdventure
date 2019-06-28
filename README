@@ -1,14 +1,18 @@
-Gonna try to recreate the StarFinder mechanics in a Python game. And probably
-use a SQLite3 to store relevant data (item, bestiary, etc)
+Making a StarFinder text adventure. Based off the mechanics from StarFinder.
 
-This is so I can get up and running on Python again. And will most likely
-start doing good practices and crap (unit tests, @property, OOP).
+Pre-requisites:
+- pytest
+- Python 3
 
+Context: 
+I want some type of programming project to work on and iterate upon. Doing programming
+problems only entertains for so long and does not teach real development, which 
+is dependent on unit tests, integration tests, maintaining old code, and modularizing
 
-The big ol TODO list:
-1) Figure out a good way to organize this.
-    a) There will be a lot of moving parts, like test, classes, data, etc
-    b) This, of course, assumes adherence to best practices
-2) Start small. I say the mechanics of character creation. This means a lot of
-things, but yeah
-3) Other cool things
+Style:
+I plan to do TDD. Basically make a suite of tests that will fail FIRST, then will 
+succeed as soon as the functionality is in place. No fancy graphics to hold me back. 
+
+Also, purely text, since why not. I may dabble with game engines as time goes on
+but I don't have any want/need to make animations or fancy stuff. At least, not yet.
+Basically focus on the purest form of a game. An interactive story and a yarn to tell

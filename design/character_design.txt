@@ -25,3 +25,7 @@ So, my initial idea is to have a stats block class that has various ways of bein
 to the relevant parts of the character (HP, SP, modifiers, AC, etc)
 
 
+The way I see all this coming together is having a master class for "character sheet" and 
+the various things feed into that. Some classes will have sub-classes, of course, but 
+all can feed into character sheet. For example racial feats or theme feats will be collated in the Feat() class, but 
+other stuff from race/theme go where needed
