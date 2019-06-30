@@ -1,4 +1,6 @@
-import generic_creature as gc
+#TODO
+#Have this guy be the master and commander of all data
+#Themes, race, name, stat blocks, etc
 
 class Character(gc.Creature):
     @property
