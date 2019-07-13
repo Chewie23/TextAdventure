@@ -1,7 +1,3 @@
-#TODO
-#Auto-generate random stats
-#Can "re-roll" as many times as the player likes
-
 #Chose to have relative because it'll be universal, instead of doing some 
 #weird absolute path that is compatible with Cygwin and MacOS
 import collections as c

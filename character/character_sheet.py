@@ -7,9 +7,13 @@ import sys
 
 import statblock
 
+#This is will be the long lived class that will hold all the information
 class Character():
     def __init__(self):
         self._name = ""
+        self.theme = ""
+        self._class = ""
+        self.skills
         self.sb = statblock.StatBlock()
    
     #Properties are weird but useful. Need to use a semi-private variable of 
