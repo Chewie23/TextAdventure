@@ -16,3 +16,15 @@ succeed as soon as the functionality is in place. No fancy graphics to hold me b
 Also, purely text, since why not. I may dabble with game engines as time goes on
 but I don't have any want/need to make animations or fancy stuff. At least, not yet.
 Basically focus on the purest form of a game. An interactive story and a yarn to tell
+
+
+Some fun undocumented trends:
+Stat blocks will have the order of:
+STR
+DEX
+CON
+INT
+WIS
+CHA
+
+Need to keep that order in mind when integrating stats between Theme, race and class
