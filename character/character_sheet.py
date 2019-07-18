@@ -2,7 +2,7 @@
 #Have this guy be the master and commander of all data
 #Themes, race, name, stat blocks, etc
 
-#Start making a minimum viable product. Basically make a single character,
+#Start making a proof of concept. Basically make a single character,
 #   Envoy, Ace Pilot, Level system + combat
 
 import sys

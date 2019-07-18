@@ -1,8 +1,8 @@
 Overarching plan:
 
-Instead of spinning my wheels and creating an abstract character who can chooese
+Instead of spinning my wheels and creating an abstract character who can chooes
 all of the classes/themes/races available (and the interplay between them), I 
-think the best path forward is to make a minimum viable product. 
+think the best path forward is to make a proof of concept. 
 
 Basically focus down to one class (Envoy), one theme (Ace Pilot) and one race 
 (Android). Have that one specific instance of that character fight against someone
