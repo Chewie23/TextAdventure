@@ -16,5 +16,9 @@ So in a nut shell:
 4) Story
     a) Mostly to decide what mechanics NOT to include
     
-Again. Minimum viable product. No more, no less. Otherwise will spin my wheels
+Again. Proof of concept. No more, no less. Otherwise will spin my wheels
 without actually practicing what matters (code integration)
+
+Maybe I should focus even more, and not even have feats. That way it's more 
+traditional RPG. Or have custom ones? Seems like there is a lot of hidden 
+questions I need to answer here
