@@ -1,0 +1,41 @@
+Combat.
+
+So, my plan is to have theater of the mind type of combat, since it's hard
+to convey distance without visual aid. So that means movement and cover are
+a little de-emphasized but still in play. 
+
+The real question is how to involve movement in a text game? Because there isn't
+any way to incorporate it without qualitative description. And that sound like
+more of a hassle than I would like.
+
+So my options:
+1) Mention it only when it matters, thus all feats related to movements are 
+pretty much nerfed or not valid
+2) Keep it as a status in combat
+    a) This could get messy, since tracking that many things? In a traditional
+    text RPG, you are always within range. But that would definitely mean 
+    movement is no longer a thing to consider in tactics
+    
+I guess combat should be simplified, for my sake. 
+
+Movement will be base speed / 10 (floor). That gives several options of movement, 
+such as "take cover", "flank", etc
+
+There won't be a defend move, since it'll all be about moving around the field
+
+Of course, the enemies can do it. So basically no real throw away enemies in this 
+game. Which is gonna be interesting to program, but for now, the mechanics to draw upon
+
+Summary:
+1) Combat will have the following happen in one round:
+    Initiative roll (during first round)
+    a) Movement actions (will have a counter, which is base speed / 10, to nearest int)
+        i) Cover (if available)
+        ii) Flank
+        iii) Withdraw
+        iv) Run away
+    b) Actions
+        i) Attack
+        ii) Heal
+        iii) Special feats (maybe affect stuff)
+    c) Bonus action (if applicable)
