@@ -3,6 +3,9 @@ import pprint as pp
 import json
 import os
 
+#TODO
+#Abstract away the request boilerplate of key and token
+
 class Trello():
     """
     The Trello class. Will be used to automate the boring stuff
@@ -19,12 +22,16 @@ class Trello():
         }
         
         self.params_key_and_token = {
-            'key':os.environ["TRELLO_API_KEY"],
+            'key': os.environ["TRELLO_API_KEY"],
             'token': os.environ["TRELLO_API_TOKEN"]}
             
         self.arguments = {'fields': 'name', 'lists': 'open'}
     
     def get_boards(self):
+        """
+        Gets all the boards information associated with the
+        member's account
+        """
         response = requests.get(
             url=self.url_dict["boards_url"], 
             params=self.params_key_and_token, 
