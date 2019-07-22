@@ -4,6 +4,11 @@ import json
 import os
 
 class Trello():
+    """
+    The Trello class. Will be used to automate the boring stuff
+    such as creating a checklist of cards or managing the board (i.e. shifting
+    from one list to another)
+    """
     def __init__(self):
         
         self.base_url = "https://api.trello.com/1"
