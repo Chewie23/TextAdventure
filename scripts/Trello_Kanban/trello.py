@@ -21,4 +21,20 @@ class Trello():
         self.params_key_and_token = {
             'key':os.environ["TRELLO_API_KEY"],
             'token': os.environ["TRELLO_API_TOKEN"]}
+            
+        self.arguments = {'fields': 'name', 'lists': 'open'}
     
+    def get_boards(self):
+        response = requests.get(
+            url=self.url_dict["boards_url"], 
+            params=self.params_key_and_token, 
+            data=self.arguments
+        )
+
+        return json.loads(response.text)
+
+if __name__ == "__main__":
+    trello = Trello()
+    
+    pp.pprint(trello.get_boards())
+        
