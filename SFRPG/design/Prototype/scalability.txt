@@ -1,0 +1,14 @@
+The question about scalability
+
+The prototype is one build, with a a type of class, race, theme and thrown into
+combat
+
+This is interesting, since scalability should be considered. Otherwise, it goes
+all out the window when trying to implement the entire system at once
+
+So, in order to have scalability, I need to assume some things that aren't in 
+place yet. Like a hook to tell when the character has a certain ability, or how
+a specific feat only comes up in certain situations.
+
+Not entirely sure how to handle this, but I get the feeling this is what this project
+will teach me, one way or the other

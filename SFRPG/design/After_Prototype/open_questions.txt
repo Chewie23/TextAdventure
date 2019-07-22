@@ -1,0 +1,17 @@
+There are several open questions I would like to answer eventually. 
+
+Not to be solved until after the prototype
+
+1) How to make a map system?
+    a) How to display or show?
+2) How to make a save system?
+3) Feats?
+    a) to add feats or not to add feats?
+4) Combat system?
+5) Make a bank of feats?
+    a) Would literally mean I would have to check for the relevant feats every
+        single event. This may or may not be the answer. Maybe only focus on THAT
+        particular instance of the character's abilities, and see if relevant?
+6) How to store data? 
+    a) In the program?
+    b) Binary text file?

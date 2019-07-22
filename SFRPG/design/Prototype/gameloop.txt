@@ -8,9 +8,10 @@ So. The major questions:
 2) What are the mechanics?
 
 
-The gameplay loop will be about exploring, fighting and leveling up. I like to make it on the
-harder side where resources are scarce and every inch has to be fought for. Basically need to think
-about the choices that affect now vs. the choices that affect later
+The gameplay loop will be about exploring, fighting and leveling up. I like to make it 
+on the harder side where resources are scarce and every inch has to be fought for. 
+Basically need to think about the choices that affect now vs. the choices 
+that affect later
 
 The mechanics are literally StarFinder. Which saves me a bunch of work on figuring out a 
 somewhat balanced system. The main question is now how to translate all Core Rule book into
@@ -18,4 +19,5 @@ something technically viable (and maintainable).
 
 
 So that means, I need some type of story to tell or follow.
+
 

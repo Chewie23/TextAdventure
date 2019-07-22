@@ -6,7 +6,8 @@ class GenericRace():
         self.stat_changes = {}
         self.size = "Medium"
         self.type = "Humanoid"
-        self.hp = 4
+        self.hp = 
+        self.class_feats = {}
 
 class Android(GenericRace):
     def __init__(self):
@@ -14,6 +15,7 @@ class Android(GenericRace):
         self.stat_changes["INT"] = 2
         self.stat_changes["CHA"] = -2
         self.subtype = "Android"
+        self.class_feats = {"Envoy Improvisation": []}
         
 class Human(GenericRace):
     def __init__(self):
