@@ -29,3 +29,23 @@ The way I see all this coming together is having a master class for "character s
 the various things feed into that. Some classes will have sub-classes, of course, but 
 all can feed into character sheet. For example racial feats or theme feats will be collated in the Feat() class, but 
 other stuff from race/theme go where needed
+
+
+
+So, the rough flow is:
+(following the core rule book)
+Person chooses a
+1) Race
+2) Theme
+3) Class
+4) Get ability scores
+5) Apply your class
+6) Select skills + Feats
+7) Buy Equipment
+8) Finalize the details
+
+So the character sheet should capture and be the source of truth for all this information
+
+Meaning, the character sheet class will be able to get and set data
+
+Which in turn means I need to have getters and setters for each of the above
