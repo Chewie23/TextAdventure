@@ -27,7 +27,7 @@ class Envoy(SFGenericClass):
             "Sleight of Hand",
             "Stealth"
             ]
-        
+        self.class_feats = {"Envoy Improvisation": []}
         
                                                             
     

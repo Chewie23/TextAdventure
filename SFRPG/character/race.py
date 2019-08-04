@@ -15,7 +15,6 @@ class Android(GenericRace):
         self.stat_changes["INT"] = 2
         self.stat_changes["CHA"] = -2
         self.subtype = "Android"
-        self.class_feats = {"Envoy Improvisation": []}
         
 class Human(GenericRace):
     def __init__(self):
